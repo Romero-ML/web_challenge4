@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web_Challenge</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+  <link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+
+<body>
+<Start of navbar>
+<!--First group header-->
+    <nav class="navbar navbar-default">
+        <div class="container-fluid navbar-custom">
+            <div class="row">
+                <div class="navbar-header">
+                    <div class="col-xs-9 phone-nav">
+                        <a class="navbar-brand" href="#" id="logo">Lattitude</a>
+                
+            <!--Second group header-->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right navbar-right-custom">
+                    <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" 
+                        aria-expanded="false">Plots 
+                        <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="Max_Temp.html">Max Temperature</a></li>
+                            <li><a href="Humidity.html">Humidity</a></li>
+                            <li><a href="Cloudiness.html">Cloudiness</a></li>
+                            <li><a href="Wind.html">Wind Speed</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                    <a href="Comparisons.html">Comparison</a></li>
+                    <li class="nav-item">
+                    <a href="table.html">Data</a></li> 
+                </ul>
+            </div>
+        </div>
+
+<!--End on navbar-->
+
+<!--First Block-->
+<div class="container">
+    <section class="row">
+        <div class="col-md-8">
+            <article class="description-content">
+              <h1 class="description-header">Max Temperature</h1>
+              <hr class="description-hr"/>
+                <img src="Resources/Temp_vs_Latitud.png" alt="" class="img-responsive" id="description-image"/>
+              <p>As expected, the weather becomes signiicantly warmer as one approaches the equator (0 Deg. Latitude) More interestingly, however, is the 
+                fact that the southern hemisphere lends to the warmer this time of year than the northen hemisohere. This may be due to  the title
+                of the earth at the time of the year this data was gathered.
+            </article>
+        </div>
+
+<!--Second Block- Visualization-->
+        <div class="col-md-4">
+                <section id="imageNav-area">
+                        <div class="imageNav-content">
+                          <h2 class="imageNav-header">Visualizations</h2>
+                          <hr />
+                          <div id="images">
+                            <a href="Max_Temp.html"><img src="Resources/Temp_vs_Latitud.png" alt="Latitude vs. Max Temperature" class="imageNav-photo img-responsive"></a>
+                            <a hrefH="Humidity.html"><img src="Resources/Humidit_vs_Latitud.png" alt="Latitude vs. Humidity" class="imageNav-photo img-responsive"></a>
+                            <a href="Cloudiness.html"><img src="Resources/Claudiness_vs_Latitud .png" alt="Latitude vs. Cloudiness" class="imageNav-photo img-responsive"></a>
+                            <a href="Wind.html"><img src="Resources/Winds_vs_Latitude.png" alt="Latitude vs. Wind Speed" class="imageNav-photo img-responsive"></a>
+                          </div>
+                        </div>
+                </section>>
+    <!-- End of the Visualizations imageNav Area -->
+        </div>
+    </section>
+</div>
+
+<!-- Start of footer -->
+<footer class="footer navbar-fixed-bottom">
+        <div class="two-toned-footer-color"></div>
+        <p class="text-muted text-muted-footer text-center">
+          &copy; Copyright Coding Bootcamp 2017
+        </p>
+      </footer>
+      <!-- End of footer -->
+</body>
+</html>
